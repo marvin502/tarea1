@@ -1,0 +1,195 @@
+:root{
+    --header: #D7D7D7;
+    --subheader: #F2F2F2;
+    --footer: #F2F2F2;
+    --colorh1:#333333;
+}
+
+.contenedor-general{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 70%;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    padding: 65px;
+    width: 100%;
+    background-color: var(--header);
+    text-align: center;
+    color: var(--colorh1);
+    margin-bottom: 0;
+}
+
+.contenedor__item{
+    background-color: var(--subheader);
+    font-size: 20px;
+    display: flex;
+}
+.item-1,
+.item-2,
+.item-3{
+    padding: 20px 60px;
+}
+.enlaces2{
+    color:var(--colorh1);
+    font-weight: bold;
+}
+.img{
+    width: 300px;
+    margin: 40px auto;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 62%;
+    padding: 65px;
+    background-color: var(--footer);
+    text-align: center;
+}
+
+/***Datos personales***/
+.table{
+    width: 620px;
+    margin: 100px auto;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+td, th{
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+/***Experiencia laboral***/
+.contenedor-experiencia{
+    padding: 75px 55px;
+    font-size: 20px;
+}
+
+/***Header***/
+.header{
+    border: 2px solid var(--header);
+    height: 35px;
+    display: flex;
+}
+.header__2{
+    text-align: center;
+    border: 3px solid blue;
+  
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.header-1{
+    display: flex;
+}
+.icono-1{
+    width: 10px;
+    padding: 10px 10px;
+}
+.icono-menu{
+    width: 10px;
+    padding: 6px 10px;
+}
+
+.header-2{
+    display: flex;
+    margin: 0 auto; 
+}
+.icono-3,.icono-4{
+    padding: 6px 10px;
+}
+
+.header-3{
+    display: flex;
+}
+.btn{
+    margin-top: 8px;
+}
+.boton{
+    background-color: #3EACEF;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.boton:hover{
+    background-color: #1482C5;
+}
+
+
+.form{
+    padding: 4px 10px;
+}
+
+select{
+    padding: 2px 15px;
+    margin-top: 0;
+}
+
+.icono-3 a,.icono-4 a{
+    color: #37465E;
+}
+
+/*header menu*/
+.icono-menu{
+    margin: 40px 50px;
+    position: relative;
+    z-index: 10;
+    top: -37px;
+    left: -40px;
+}
+.icono-menu i{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cont-menu{
+    background-color: #FCFDFF;
+    width: 210px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+    border: 2px solid var(--header);
+}
+
+.active{
+    transform: translate(-600px);
+}
+
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.cont-menu ul li{
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+    background-color: #E3F2FC;
+}
